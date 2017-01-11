@@ -10,9 +10,9 @@ def generate_platforms():
     for x in range(0, randint(30, 50)):
         platforms.append(MoveableGameObject(uniform(0, 800), randint(0, 600), randint(10, 70), randint(5, 70)))
     for plat in platforms:
-        # plat.xv = uniform(0, 2)
-        # plat.yv = uniform(0, 2)
-        None
+        plat.xv = uniform(0, 2)
+        plat.yv = uniform(0, 2)
+
 
     return platforms
 
