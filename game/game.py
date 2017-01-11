@@ -8,7 +8,7 @@ from   colors import *
 from   classes import *
 
 pygame.init()
-
+# Quick Commit test
 running = True
 
 screen = pygame.display.set_mode((800, 600), RESIZABLE)
